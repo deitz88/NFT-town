@@ -1,5 +1,5 @@
-const Planet = artifacts.require("Planet");
+const Mask = artifacts.require("Mask");
 
 module.exports = function(deployer) {
-  deployer.deploy(Planet);
+  deployer.deploy(Mask);
 };
